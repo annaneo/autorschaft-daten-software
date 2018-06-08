@@ -1,4 +1,4 @@
-### 8.6.2018  | DH 2018 Budapest
+### 8.6.2018  | Forschungsdaten in der Geschichtswissenschaft
 
 # Autorschaft von Daten und Software
 
