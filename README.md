@@ -8,7 +8,7 @@
 
 Description
 
-The code of this boilerplate is at https://annaneo.github.io/autorschaft-daten-software
+The code of this boilerplate is at https://github.com/annaneo/autorschaft-daten-software
 
 A live demo can be found at https://annaneo.github.io/autorschaft-daten-software
 
