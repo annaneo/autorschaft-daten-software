@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autorschaft von Daten und Software</title>
+
+    <!-- meta information -->
+    <meta name="author" content="Anna Neovesky"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=1024"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="resources/img/favicon.png"/>
+    <link rel="apple-touch-icon" href="resources/img/apple-touch-icon.png"/>
+
+    <!-- CSS reset and grid -->
+    <link href="vendor/normalize/normalize-4.1.1.css" rel="stylesheet"/>
+    <link href="vendor/skeleton/skeleton-2.0.4.css" rel="stylesheet"/>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"/>
+
+    <!-- styles for included libraries -->
+
+    <!-- chartist -->
+    <link rel="stylesheet" href="vendor/chartist/chartist.min-0.9.7.css"/>
+
+    <!-- codemirror -->
+    <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css"/>
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="vendor/highlight/styles/default.css"/>
+    <link rel="stylesheet" href="resources/css/hljs.linenumbering.css"/>
+
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css"/>
+
+    <!-- standard presentation styles -->
+    <link href="resources/css/style.css" rel="stylesheet"/>
+
+    <!-- custom presentation styles -->
+    <link href="resources/css/custom.css" rel="stylesheet"/>
+
+    <!-- js needed in head -->
+
+    <!-- greuler -->
+    <script src="vendor/d3/d3-3.5.6.js"></script>
+    <script src="vendor/cola/cola.v3.min.js"></script>
+    <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
+
+    <!-- html5 dataset shim for IE -->
+    <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>
+            Your browser <strong>doesn't support the features required</strong> by impress.mod.js,
+            so you are presented with a simplified version of this presentation.
+        </p>
+        <p>
+            For the best experience please use the latest <strong>Chrome</strong>, <strong>Safari</strong>
+            or <strong>Firefox</strong> browser.
+        </p>
+    </div>
+
+    <div id="impress">
+
+        <div class="step">
+            <h4><strong>7.8.2018</strong> | <a href="#">Heinz-Nixdorf-MuseumsForum, Paderborn</a></h4>
+            <h4><strong>Forschungsdaten in der Geschichtswissenschaft</strong></h4>
+
+            <h2 class="down-100">Autorschaft von Daten und Forschungssoftware</h2>
+
+            <h3 class="red up-25">Möglichkeiten der Sichtbarmachung und Etablierung in der Geschichtswissenschaft</h3>
+
+            <h4 class="down-100">
+                <strong>Slides:</strong>
+                <a href="https://annaneo.github.io/Autorschaft-Daten-Software" title="View the presentation online">
+                    https://annaneo.github.io/Autorschaft-Daten-Software
+                </a>
+            </h4>
+
+            <h5>
+                <strong>Anna Neovesky</strong> |
+
+                <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon"/>
+                <a href="https://twitter.com/digicademy" title="Digital Academy on Twitter">@digicademy</a> |
+                <img src="resources/img/Octicons-mark-github.svg" alt="Github" class="gh-icon"/>
+                <a href="https://github.com/digicademy/incipitSearch" title="Digital Academy on GitHub">digicademy</a> |
+                <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a><br/>
+                <strong>Digitale Akademie</strong><br/>
+                <strong>Akademie der Wissenschaften und der Literatur | Mainz</strong>
+            </h5>
+        </div>
+
+        <div class="step">
+            <h2>Überblick</h2>
+            <ul class="line-height-one-five">
+                <li>Einordung</li>
+                <li>Kenntlichmachung von Autorschaft</li>
+                <li>Qualitätssicherung bei Daten- und Softwarepublikationen
+                </li>
+                <li>Leitfragen<br/>1. Begeisterung für offene Bereitstellung<br/>2. Sichtbarkeit,
+                    Evaluation, Reputation
+                </li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h1 class="red">01</h1>
+            <h2 class="line-height-one-five">
+                Einordung und Vorüberlegungen
+            </h2>
+            <h3 class="red pull-up">Wissenschaftliche Publikationen, Forschungsdaten</h3>
+
+        </div>
+
+        <div class="step">
+            <h2>Wissenschaftliche Publikationen</h2>
+            <div class="row">
+                <div class="four columns">
+                    <h3 class="red pull-up">Typen</h3>
+                    <ul class="line-height-one-two-five">
+                        <li>Monografien</li>
+                        <li>Artikel</li>
+                        <li>Daten</li>
+                        <li>Software</li>
+                    </ul>
+                </div>
+                <div class="eight columns substep">
+                    <h3 class="red pull-up">Gemeinsame Merkmale¹</h3>
+                    <ul class="line-height-one-two-five">
+                        <li> Ergebnisse und Leistungen der Wissenschaft manifestiert, dokumentiert und sichtbar
+                            gemacht
+                        </li>
+                        <li>Hauptadressat: andere Wissenschaftler</li>
+                        <li>Rezensionen und peer-review als entscheindes Kriterium der Qualitätssicherung von wissenschaftlichen
+                            Publikation
+                        </li>
+                    </ul>
+                    <p class="x-small">¹ Ulrike Eich, Open Access und akademische Reputationssysteme. In: Söllner, K. & Mittermaier, B. (Hg.), Praxishandbuch Open Access. Berlin, Boston, 2017, S. 28-30)</p>
+            </div>
+                <div class="row substep">
+                    <p>Publikationspraxis, Gewichtung und Bewertung verschieden in Disziplinen</p>
+
+                </div>
+        </div>
+    </div>
+
+        <div class="step">
+            <h2>Forschungsdaten?</h2>
+                <div>
+                    <h3 class="red pull-up">Begriff Forschungsdaten</h3>
+                    <ul class="line-height-one-two-five">
+                        <li><em>"Daten, die während Forschungsprozess entstehen oder sein Ergebnis sind."</em></li>
+                        <li>Software: meist zu Forschungsdaten gerechnet</li>
+                    </ul>
+                </div>
+            <div>
+                <h3 class="red pull-up">Besonderheiten</h3>
+                <ul class="line-height-one-two-five">
+                    <li>Noch kein etablierter Umgang</li>
+                    <li>„Lebende Objekte"¹: werden kontinuierlich oder schubweise erweitert und korrigiert → Versionierung in Angabe und Zitation
+                    </li>
+                    <li>Werden in erster Linie nicht zitiert sondern zur Überprüfung verwendet und nachgenutzt²</li>
+                </ul>
+            </div>
+            <p class="x-small">¹ Hans Pfeiffenberger, Data Publishing und Open Access. In: Söllner, K. & Mittermaier, B. (Hg.), Praxishandbuch Open Access. Berlin, Boston, 2017, S. 337<br/>
+                ² Eich, Open Access und akademische Reputationssysteme, S. 32.
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>Fragen im Zusammenhang mit der Datenpublikation</h2>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>Technische Fragen: (Daten-) Standards, Bereitstellungsart (download, API), Lizenzierung, Infrastruktur</li>
+                    <li>Qualität und Qualitätskontrolle</li>
+                    <li>Zitierweise und Anerkennung der wissenschaftlichen Leistung</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">02</h1>
+            <h2 class="line-height-one-five">
+                Kenntlichmachung von Autorschaft
+            </h2>
+            <h3 class="red pull-up"></h3>
+
+        </div>
+
+        <div class="step">
+            <h2>Was ist Autorschaft?</h2>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>AutorIn = SchöpferIn eines sprachlichen Werks</li>
+                    <li>AutorIn bzw. AutorInnen-Kollektiv tragen (gemeinsam) Verantwortung für den Inhalt
+                     <li><em>„Als
+                        Autoren einer wissenschaftlichen Originalveröffentlichung sollen alle diejenigen firmieren, die
+                    zur Erarbeitung, Analyse und Interpretation der Daten selbst wesentlich beigetragen haben".¹</em>
+                        </li>
+                    <li>Autor ist nur, wer einen wesentlichen Beitrag zu einer wissenschaftlichen Veröffentlichung
+                        geleistet hat
+                    </li>
+                    <li>Nicht ausreichend sind: organisatorische Verantwortung, lediglich technische Mitwirkung bei der
+                        Datenerhebung, Bereitstellung von Geräten, Leitung einer Organisationseinheit¹
+                    </li>
+                    <li>Ehrenautorschaft ist ausgeschlossen</li>
+                </ul>
+                <p class="x-small">¹ <a href="http://www.dfg.de/download/pdf/dfg_im_profil/reden_stellungnahmen/download/empfehlung_wiss_praxis_1310.pdf">DFG-Empfehlungen zur Sicherung guter wissenschaftlicher Praxis, 2013, S.29f.</a></p>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Umgang mit Kollektiven Autorschaften</h2>
+            <h3 class="red">Kenntlichmachung der individuellen Leistung</h3>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>Abgrenzung der individuellen Beiträge</li>
+                    <li>Ausmaß der Beteiligung kenntlich machen</li>
+                </ul>
+                <p>→ schafft Transparenz und ermöglicht die jeweilige individuelle wissenschaftliche Leistung hervorzuheben und zu würdigen</p>
+
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Beispiel Kenntlichmachung der individuellen Beteiligung</h2>
+            <h3 class="red">IncipitSearch</h3>
+            <div class="row">
+                <div class="mfp-lightbox ten columns">
+                    <a href="resources/img/incipitsearch.png">
+                        <img src="resources/img/incipitsearch.png"/>
+                    </a>
+                </div>
+            </div>
+            <div >
+                <a href="https://incipitsearch.adwmainz.net/">https://incipitsearch.adwmainz.net/</a></div>
+        </div>
+
+        <div class="step">
+            <h2>Kennzeichnung von Autorschaft bei Daten</h2>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>In den Daten selbst, z.B. TEI-Header</li>
+                    <li>In Metadaten der Datenrepositorien</li>
+                    <li>Durch Zitierhinweis</li>
+                    <li>In Kombination mit weiteren Publikationen: data paper / data notes / data story, Artikel</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Beispiel Datenautorschaft</h2>
+            <h3 class="red">Quellensammlung zur Geschichte der deutschen Sozialpolitik</h3>
+            <div class="mfp-lightbox">
+                <a href="resources/img/quellensammlung-zitierhinweis.png">
+                    <img src="resources/img/quellensammlung-zitierhinweis.png"/>
+                </a>
+            </div>
+            <div >
+                <a href="https://quellen-sozialpolitik-kaiserreich.de/id/q.02.01.00.0137">https://quellen-sozialpolitik-kaiserreich.de/id/q.02.01.00.0137</a></div>
+        </div>
+
+        <div class="step">
+            <h2>Kennzeichnung von Autorschaft bei Software</h2>
+            <div class="medium">
+                <p class="red">Typen von Forschungssoftware</p>
+                <ul class="line-height-one-two-five">
+                    <li>Einsatz im Forschungsprozess / Einsatz zur Publikation und weiteren Analyse</li>
+                    <li>Komplexe Software und Applikationen / Skripte</li>
+                    <li>Oft mehrere, konkret benennbare Rollen (z.B. Entwicklung, Design, DevOps)</li>
+                </ul>
+                <div class="substep">
+                <p class="red">Wo und wie kenntlich machen?</p>
+                <ul class="line-height-one-two-five">
+                    <li>Copyright der jeweiligen Datei</li>
+                    <li>Readme (dort auch: verwendete Software)</li>
+                    <li>Angabe der Lizenz und eines Zitierhinweises</li>
+                    <li>Forschungsapplikationen: About / Impressum</li>
+                    <li>Kombination mit software paper, Ankündigung des Softwarereleases, Artikel zu spezifischem
+                        Thema<br/>Beispiel: <a href="https://www.journals.elsevier.com/softwarex">SoftwareX</a> für "domänenunabhängige Open Source Software"
+                    </li>
+                    <li>Bei Bereitstellung über Versionkontrolle (github): direkte Sichtbarkeit der individuellen Beiträge
+                    </li>
+                    <li class="substep">oft fehlen klare Vorgaben der Entwickler</li>
+                </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="step">
+            <h2>Beispiel Softwareautorschaft</h2>
+            <h3 class="red">Zitiervorschlag des <a href="https://www.software.ac.uk/how-cite-and-describe-software">Software Sustainability Institute</a></h3>
+            <div class="mfp-lightbox">
+                <a href="resources/img/softwarecite.png">
+                    <img src="resources/img/softwarecite.png"/>
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Zusammenfassung</h2>
+            <h3 class="red pull-up">Kenntlichmachung der Autorschaft</h3>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>In Daten / Code selbst</li>
+                    <li>Über einen angegebenen Zitierhinweis</li>
+                    <li>In Kombination mit weiteren Publikationen</li>
+                    <li>Interessensgruppen:
+                    <ul>
+                        <li>Daten: <a href="https://www.rd-alliance.org/about-rda">Research Data Alliance</a>, <a href="https://www.datacite.org/">DataCite</a></li>
+                        <li>Software: <a href="http://www.de-rse.org/de/index.html">Research Software Engineers</a>, <a href="https://dh-rse.github.io/">AG DH-RSE</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">03</h1>
+            <h2 class="line-height-one-five">
+                Qualitätskriterien und Qualitätssicherung bei Daten- und Softwarepublikationen
+            </h2>
+        </div>
+
+        <div class="step">
+            <h2>Qualitätskriterien für Daten</h2>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>Ermittelt durch Fachverbände, Zeitschriften, Infrastrukturprogramme</li>
+                    <li>FAIR data principles: findable, acessible, interoperable, reusable</li>
+                    <li><strong>Inhaltliche Qualität!</strong></li>
+                    <li>GI: Qualität von Daten = Informationsqualität¹</li>
+                    <li>Qualitätsmerkmale auf ganzes Datenset oder einzelne Datensätze bezogen</li>
+                    <li>Eignung der Daten für spezielle datenverarbeitende Verwendung</li>
+                </ul>
+            </div>
+            <p class="down-75">¹ <a href="https://gi.de/informatiklexikon/datenqualitaet/">https://gi.de/informatiklexikon/datenqualitaet</a></p>
+        </div>
+
+
+        <div class="step">
+            <h2>Qualitätskriterien für Software</h2>
+            <h3 class="red pull-up">ISO Standard 9126 für Software-Qualitätseigenschaften</h3>
+            <div class="row">
+                <div class="six columns down-50">
+                    <ul class="line-height-one-two-five">
+                        <li>Functionality</li>
+                        <li>Reliability</li>
+                        <li>Usability</li>
+                        <li>Efficieny</li>
+                        <li>Maintainability</li>
+                        <li>Portability</li>
+                    </ul>
+                </div>
+                <div class="six columns">
+                    <div class="mfp-lightbox">
+                        <a href="resources/img/ISO_9126.png">
+                            <img src="resources/img/ISO_9126.png"/>
+                        </a>
+                    </div>
+                    <p class="x-small">Bild: <a href="https://commons.wikimedia.org/wiki/File:ISO_9126_quality_(de).svg">Sae1962</a>, CC-BY-SA 4.0</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="step">
+            <h2>Die Plattform als Qualitätskriterium</h2>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>Nachhaltige Erstellung, Pflege, Standards, Transparenz, gute Sichtbarkeit, langfristige
+                        Verfügbarkeit von Forschungsdaten¹
+                    </li>
+                    <li>Renomme des Bereitstellers (Verlag, Institution)</li>
+                    <li>Offenheit</li>
+                    <li>Verbreitung in der Community</li>
+                    <li>Qualitätssiegel für Repositorien: data seal of approval</li>
+                </ul>
+            </div>
+            <div>Beispiele Übergreifende Infrastrukturen: re3data / DataCite, Medeley Data, SoftwareX, Zenodo
+            </div>
+            <div class="small down-75">¹ <a href="https://www.historikerverband.de/fileadmin/_vhd/Stellungnahmen/Positionspapier-NFDI_VHD_final.pdf">Positionspapier des Histroikerverbandes zur NFDI, S.2</a></div>
+        </div>
+
+
+        <div class="step">
+            <h2>Verfahren der Qualitätssicherung aus Open Access Zeitschriften</h2>
+            <h3 class="red">Welche Qualitätskriterien werden bei Open Access Journals angewendet?</h3>
+            <div>
+                <p>Directory of Open Access Journals</p>
+                <ul class="line-height-one-two-five">
+                    <li>Kriterien für besonders gute Zeitschriften: CC-BY Lizenz, Metadaten zu Artikeln,
+                        persistent Identifiziert
+                    </li>
+                    <li>Inhalte geprüft durch Freiwillige (Bewerbung mit Referenz, Code of Conduct); Aufsichtsgremium
+                    </li>
+                </ul>
+
+                <p>arxiv.org</p>
+                <ul class="line-height-one-two-five">
+                    <li>ModeratorInnen der jeweiligen Disziplin</li>
+                    <li>Fürsprache eines etablierten Autors nötig</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Rezensionen als Mittel der Qualitätssicherung</h2>
+            <h3 class="red">Bestehende Formate</h3>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>Rezensionen in Zeitschriften</li>
+                    <li>Spezifische Rezensionsplattformen (z.B. recensio.net, Fachinformationsdienste)</li>
+                    <li>Rezensionsjournal für Digitale Editionen RIDE¹</li>
+                </ul>
+                <p  class="x-small">¹ <a href="https://ride.i-d-e.de">https://ride.i-d-e.de</a></p>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Datenrezensionen in Fachinformationsdienste</h2>
+            <div class="row line-height-one-two-five">
+                <div class="six columns ">
+                <h3 class="red">HSozKult</h3>
+                <ul class="">
+                    <li> Unterkategorie “Digitale Medien”  → Rezension von Datenträgern (letzte: 2012)
+                    </li>
+                    <li>Rezension zu Daten einbinden</li>
+                </ul>
+
+                    <h3 class="red">CLIO </h3>
+                <ul class="">
+                    <li>Web-Ressourcen</li>
+                    <li>Anknüpfungspunkt für Information zu Daten und Rezensionen</li>
+                </ul>
+                </div>
+                <div class="six columns">
+                <div class="mfp-lightbox">
+                    <a href="resources/img/hsozkult.png">
+                        <img src="resources/img/hsozkult.png"/>
+                    </a>
+                </div>
+                    <div class="mfp-lightbox">
+                        <a href="resources/img/clio.png">
+                            <img src="resources/img/clio.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <h1 class="red">04</h1>
+            <h2 class="line-height-one-five">
+                Schlussbetrachtung und Fazit
+            </h2>
+            <h3 class="red pull-up">Leitfragen</h3>
+        </div>
+
+        <div class="step">
+            <h2>Welche Rahmenbedingungen sind notwendig, um Forschende für das Datasharing zu begeistern?</h2>
+            <h3 class="red">Zu was führen offene Forschungsdaten?</h3>
+            <ul class="line-height-one-two-five">
+                <li>Sind auffindbar, verfügbar, nachnutzbar → haben potentiell mehr Rezipienten</li>
+                <li>Forschung ist transparent, verifizierbar</li>
+                <li>Doppelte Datenerhebung wird verhindert, Nachprüfung und Ergänzung ermutigt</li>
+                <li>Verknüpfung mit anderen (digitalen) Materialien und maschinengestützte Weiterverarbeitung</li>
+                <li>Erfüllen Vorgaben der Forschungsförderer</li>
+            </ul>
+        </div>
+
+
+        <div class="step">
+            <h2>Welche Rahmenbedingungen sind notwendig, um Forschende für das Datasharing zu begeistern?</h2>
+            <div class="substep">
+            <h3 class="red">Nötig sind:</h3>
+            <ul class="line-height-one-two-five">
+                <li>Etablierte, nachvollziehbare und transparentes Vorgehen im Prozess der Datenerstellung
+                    <ul>
+                        <li>Sammeln der Inhalte</li>
+                        <li>Erstellung der Daten (Datenformat, Vokabular)</li>
+                        <li>Lizenzauswahl</li>
+                        <li>Zugang bereitstellen</li>
+                        <li>Auswahl des Repositoriums</li>
+                    </ul>
+                </li>
+                <li>Anerkennung als Forschungsleistung und Erfolgsfaktor</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Wie können im Rahmen von Open Data und kollaborativem Arbeiten digitale Forschungsleistungen evaluiert
+                und Autorenschaft sichtbar gemacht werden, um wissenschaftliche Reputation für Forschende zu
+                generieren?</h2>
+            <div class="substep">
+            <h3 class="red">Sichtbarkeit erzeugen</h3>
+            <ul class="line-height-one-five">
+                <li>Zunächst: Datenrepositorien sichtbar machen</li>
+                <li>Einbindung in Fachinformationsdienst</li>
+                <li>In Kombination mit anderen Veröffentlichungen</li>
+                <li>Bei mehreren Beteiligten: Rollen sichtbar machen</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Wissenschaftliche Reputation für Forschende
+                generieren?</h2>
+            <h3 class="red">Evaluierung</h3>
+            <div>
+                <ul class="row line-height-one-two-five">
+                    <li>Etablierung von Verfahren der wissenschaftlichen Qualitätskontrolle</li>
+                    <li>Qualitätskriterien</li>
+                    <li>Rezension- und Review-Verfahren</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step">
+            <h2>Wissenschaftliche Reputation</h2>
+            <h3 class="red">Anerkennung der Fachcommunity</h3>
+            <div>
+                <ul class="line-height-one-two-five">
+                    <li>Vorbedingung ist wissenschaftliche Qualitätssicherung um Ebene anderer Publikationen zu
+                        erreichen
+                    </li>
+                    <li>Anerkennung als Bestandteil des generellen Publikationsprozesse sowie eigenständige
+                        Publikation
+                    </li>
+                    <li>Anerkennung als Leistung, die im Rahmen von Publikationen aufgeführt wird</li>
+                </ul>
+            </div>
+            <strong class="substep down-50">Bereiche Sichtbarkeit von Repositorien und Daten, Zitationsrichtlinien, Qualitätskriterien und Reputation müssen aus
+                der Fachcommunity kommen</strong>
+        </div>
+
+
+    </div>
+
+    <!-- jquery -->
+    <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+
+    <!-- chartist -->
+    <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
+    <script src="resources/js/chartist.charts.js"></script>
+
+    <!-- codemirror -->
+    <script src="vendor/codemirror/lib/codemirror.js"></script>
+    <script src="vendor/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="vendor/codemirror/mode/sparql/sparql.js"></script>
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("sparql"), {
+            mode: "application/sparql-query",
+            matchBrackets: true,
+            lineNumbers: true,
+            viewportMargin: Infinity
+        });
+    </script>
+
+    <!-- highlight -->
+    <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="resources/js/hljs.linenumbering.js"></script>
+
+    <!-- magnific popup -->
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
+    <script src="resources/js/magnific-popup.lightbox.js"></script>
+
+    <!-- impress.mod.js -->
+    <script src="vendor/impress/impress.fork.js"></script>
+    <script src="vendor/impress/impress-slidenum.js"></script>
+    <script>
+        var obj = impress();
+        obj.init();
+        initSlideNo(obj);
+    </script>
+    <script>
+        (function (document, $, undefined) {
+            'use strict';
+
+            var isPlaying,
+                audio,
+                impressObj = impress(),
+                impressGoto = impressObj.goto;
+
+            $(document).on('impress:stepenter', function (event, f) {
+                var $currSlide = $(event.target);
+                if (audio) {
+                    audio.pause();
+                }
+                audio = $currSlide.find('audio')[0];
+                if (audio) {
+                    audio.play();
+                    if (isPlaying && $currSlide[0] != $currSlide.parent().children().last()[0]) {
+                        audio.addEventListener('ended', function () {
+                            impressObj.goto($currSlide.next());
+                            audio.removeEventListener('ended');
+                        });
+                    } else {
+                        isPlaying = false;
+                    }
+
+                }
+            });
+
+            impressObj.play = function () {
+                isPlaying = true;
+                this.goto(0);
+            };
+
+            impressObj.goto = function ($el) {
+                if (isNaN($el)) {
+                    impressGoto($el.parent().children().index($el), $el.data('transition-duration'));
+                } else {
+                    impressGoto($el);
+                }
+            }
+
+
+        })(document, jQuery);
+    </script>
+
+</body>
+</html>
